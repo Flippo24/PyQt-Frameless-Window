@@ -13,8 +13,6 @@ match platform.system():
         install_requires.append("PyCocoa")
     case "Windows":
         install_requires.append("pywin32")
-    case "Linux":
-        install_requires.append("xcffib")
 
 setuptools.setup(
     name="qframelesswindow",
