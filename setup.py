@@ -23,7 +23,7 @@ setuptools.setup(
     description="A cross-platform frameless window based on qt6, support Win32, X11, Wayland and macOS.",
     long_description=long_description,
     long_description_content_type='text/markdown',
-    license="GPLv3",
+    license="LGPLv3",
     url="https://github.com/Flippo24/qframelesswindow/tree/PySide6",
     packages=setuptools.find_packages(),
     install_requires=install_requires,
